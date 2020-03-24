@@ -1,5 +1,5 @@
 # PyAlert
-PyAlert is an Security Incident and Event Management Tool. It is designed completely with Python, It’s a basic tool architecture to understand how SIEM Works in real time. This tool interact with ELK Stack to fetch datasources Information such as Logs. You can Integrate as many datasources you want by simple configuration and write own parsers for different log formats.
+PyAlert is an Security Incident and Event Management Tool. It is designed completely with Python, It’s a basic tool architecture to understand how SIEM Works in real time. This tool interact with ELK Stack to fetch datasources Information such as Logs. You can Integrate as many datasources you want by simple configuration and write own parsers for different log formats. PyAlert Provides Command line interface for user Interaction.
 <br/>
 ### Features List
 PyAlert come up with list of features
@@ -11,7 +11,7 @@ PyAlert come up with list of features
 ### Architecture Components
 #### Elastic Search
 - Elasticsearch is a distributed search and analytics engine
-- It Provides real time search and analytics for all types od data (sturctured or unstructured text, numericasl etc..)
+- It Provides real time search and analytics for all types od data (sturctured or unstructured text, numericals etc..)
 - Elasticsearch offers speed and flexibility to handle data in wide variety of use cases
 - Elasticsearch store data in the form of index to perform fast searches.
 - It build on the top of Apache Lucene Library
@@ -68,6 +68,6 @@ PyAlert come up with list of features
     - Generated reports are stored in the Folder named "Generated Reports"
   - Health Check
     - Health Check is only applicable for Logstash
-    - It will check the status of CPU Usage, JVM Statistics, Pipelines Connected and their Information
+    - It will check the status of CPU Usage, JVM Statistics, Pipelines Connected and Pipeline Information
   <br/>
   Brief documentation is available in <a href="https://github.com/srinivas946/PyAlert/wiki">Wiki</a> page.
