@@ -70,4 +70,4 @@ PyAlert come up with list of features
     - Health Check is only applicable for Logstash
     - It will check the status of CPU Usage, JVM Statistics, Pipelines Connected and their Information
   <br/>
-  Brief documentation is available in wiki page.
+  Brief documentation is available in [wiki](https://github.com/srinivas946/PyAlert.wiki.git) page.
