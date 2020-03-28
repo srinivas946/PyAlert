@@ -7,7 +7,7 @@ PyAlert come up with list of features
 - Reporting
 - Health Check
 ### Architecture
-![PyAlert Architecture](architechture.jpg)
+![PyAlert Architecture](Images/architechture.jpg)
 ### Architecture Components
 #### Elastic Search
 - Elasticsearch is a distributed search and analytics engine
