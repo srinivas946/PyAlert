@@ -1,0 +1,29 @@
+
+template:
+  type: ppt
+  author: Srinivas
+
+cover_page:
+  heading: Auditing Report
+  subheading: Customer-ThinkSmart
+
+table:
+  required: yes
+  heading: User Details
+  paragraph: This table explains about user information
+  fields: # provide the fields appear in the table
+    - event_created
+    - event_code
+    - host_name
+    - username
+
+chart:
+  required: yes
+  heading: Users Data Visualization
+  field: username
+  # available type => pie, vbar, hbar, line
+  type: vbar
+  # width and height ranges from 1 - 10
+  # recommended => width=8, height=5
+  width: 8
+  height: 5

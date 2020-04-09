@@ -1,0 +1,26 @@
+# while writing regular expression use forward slashes around it example => /regex.*/
+
+Alert_Name: Privilege Service Invoked
+Rule:
+  Equal:
+    AND:
+      # field_name: field_value
+      event.code: 4673
+      agent.hostname: SOC14
+    OR:
+  NotEqual:
+    AND:
+    OR:
+  Contains:
+    AND:
+    OR:
+  NotContains:
+    AND:
+    OR:
+
+Aggregation:
+  matches: 3
+  timeframe: 20
+
+
+

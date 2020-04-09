@@ -1,0 +1,38 @@
+# while writing regular expression use forward slashes around it example => /regex.*/
+
+Report_Name: Privilege Escalation Report
+Rule:
+  Equal:
+    AND:
+      # field_name: field_value
+      event.code: 4673
+      agent.hostname: SOC14
+    OR:
+  NotEqual:
+    AND:
+    OR:
+  Contains:
+    AND:
+    OR:
+  NotContains:
+    AND:
+    OR:
+
+# mention timeframe in hours
+# supported timeframes => Daily, Weekly, Monthly
+TimeFrame: Daily
+
+# output format
+# supported formats => csv, word, ppt, excel, json
+Output: word
+
+# Create Template
+# for csv => template = None
+# for json => template = None
+# for word => template is applied in entity specified order
+# syntax: template = cover_page
+# for ppt => template is applied in entity specified order
+Template_Name: Word_Template
+
+
+

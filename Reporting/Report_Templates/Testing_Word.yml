@@ -1,0 +1,32 @@
+
+template:
+  type: word
+  author: Srinivas
+
+cover_page:
+  required: yes
+  heading: Auditing Report
+  subheading: Customer-ThinkSmart
+  paragraph: Full details for auditing report
+
+table:
+  required: yes
+  heading: User Details
+  paragraph: This table explains about user information
+  fields: # provide the fields appear in the table
+    - event_created
+    - event_code
+    - host_name
+    - username
+
+chart:
+  required: yes
+  heading: Users Data Visualization
+  field: username
+  # available type => pie, vbar, hbar, line
+  type: pie
+  # width and height ranges from 1 - 10
+  width: 5
+  height: 4
+
+

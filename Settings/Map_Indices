@@ -1,0 +1,27 @@
+[elastic_search]
+hostname = localhost
+port = 9200
+# only in seconds
+search_query_time_interval = 60
+
+[Logstash]
+hostname = localhost
+port = 9600
+cert_path =
+jvm_stats = _node/stats/jvm
+process_stats = _node/stats/process
+event_stats = _node/stats/events
+os_stats = _node/stats/os
+hot_threads = _node/hot_threads
+pipeline_stats = _node/stats/pipelines
+
+[Indices]
+windows = windows_file_beats-*
+apache = apache_file_beats-*
+
+[Parser_Map]
+# parser keys are similar to indices key
+# key = identifier which is similar to indices key
+# value = parser file name
+windows = windows
+apache = apache

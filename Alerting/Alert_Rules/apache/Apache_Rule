@@ -1,0 +1,27 @@
+# while writing regular expression use forward slashes around it example => /regex.*/
+
+# data source for the rule
+Rule_Source: apache
+Alert_Name: Blacklisted IP Observed
+Rule:
+  Equal:
+    AND:
+      # field_name: field_value
+      Source_Address: 83.149.9.216
+    OR:
+  NotEqual:
+    AND:
+    OR:
+  Contains:
+    AND:
+    OR:
+  NotContains:
+    AND:
+    OR:
+
+Aggregation:
+  matches: 2
+  timeframe: 30
+
+
+

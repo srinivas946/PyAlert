@@ -1,0 +1,16 @@
+[parser]
+http_version = request
+request_method = request_method
+agent_version = agent, version
+agent_type = agent, type
+event_created = Triggered_Time
+event_triggered = @timestamp
+bytes = Bytes
+message = message
+source_address = Source_Address
+country = geoip, country_name
+city = geoip, city_name
+country_code = geoip, country_code2
+user_agent = User_Agent
+request_uri = Request_URI
+status_code = Status_Code

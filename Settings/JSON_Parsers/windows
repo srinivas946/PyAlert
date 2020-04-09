@@ -1,0 +1,13 @@
+[parser]
+message = message
+event_code = event, code
+provider = event, provider
+event_created = event, created
+host_name = host, name
+ssid = winlog, event_data, SubjectUserSid
+logon_id = winlog, event_data, SubjectLogonId
+process_name = winlog, event_data, ProcessName
+username = winlog, event_data, SubjectUserName
+agent_version = agent, version
+agent_type = agent, type
+check_timestamp = @timestamp
