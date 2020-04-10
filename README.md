@@ -11,7 +11,7 @@ PyAlert come up with list of features
 ### Architecture Components
 #### Elastic Search
 - Elasticsearch is a distributed search and analytics engine
-- It Provides real time search and analytics for all types od data (sturctured or unstructured text, numericals etc..)
+- It Provides real time search and analytics for all types of data (sturctured or unstructured text, numericals etc..)
 - Elasticsearch offers speed and flexibility to handle data in wide variety of use cases
 - Elasticsearch store data in the form of index to perform fast searches.
 - It build on the top of Apache Lucene Library
